@@ -5,7 +5,7 @@ themis privacy guard library - themis
 
 ### way 1:
 ```bash
-git clone https://github.com/lazypwny751/themis-privacy-guard.git && cd 
+git clone https://github.com/lazypwny751/themis-privacy-guard.git && cd themis-privacy-guard && sudo make install
 ```
 
 ### way 2:
@@ -17,18 +17,18 @@ also you can use the [binary packages](https://github.com/lazypwny751/themis-pri
 ## Usage
 
 #### __tpg-dep-check
-__tpg-dep-check is the function that detects the programs required for tpg to run, 
+The '__tpg-dep-check' is the function that detects the programs required for tpg to run, 
 it doesn't need to use manual, other functions already use this __tpg-dep-check at the right time
 
 #### __get-priv-key
-The __get-priv-key function allows you to manipulate your private key. 
+The '__get-priv-key' function allows you to manipulate your private key. 
 You can do 2 operations with arguments 1. You can print 
 The second argument is the 'write' argument. Its usage is as follows:
 '__get-priv-key write <directory-path>' saves your personal key 
 in a file named <hostanme>.priv in the specified directory 
 
 #### __get-pub-key
-__get-pub-key function can be used with 2 arguments 1. 'print', that is, 
+'__get-pub-key' function can be used with 2 arguments 1. 'print', that is, 
 it displays your public key on the screen 2. argument is 'write' argument,
 which is used as '__get-pub-key write <directory-path>' to the specified directory 
 It saves your public key in a file named <hostname>.pub
